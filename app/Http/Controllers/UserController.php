@@ -27,6 +27,7 @@ class UserController extends Controller
         $regras = [
             'cpf' => 'required|',
             'nome' => 'required|max:30',
+            'data_de_nascimento' => 'required',
         ];
 
         // Executa a validação dos parâmetros
